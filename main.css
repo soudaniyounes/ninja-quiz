@@ -1,0 +1,66 @@
+*{
+box-sizing: border-box;
+margin:0;
+}
+.info{
+    margin:60px;
+    background-color: white;
+    text-align: center;
+}
+.info h2{
+    color:rgb(10, 200, 247);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quiz-ninja{
+    background-color: rgb(10, 200, 247);
+    display: flex;
+}
+ .continair{
+    margin-left: 40px;
+    width: 100%;
+    height: 100%;
+}
+ .continair h2{
+    font-size:32px;
+    color:#fff;
+    margin:40px;
+}
+.ninja-form{
+    margin: 40px;
+}
+.pakage{margin-bottom:20px;}
+.pakage p{
+color:#fff;
+font-size: 27px;
+margin-bottom:20px;
+}
+.pakage .option-one{
+    margin-bottom:20px;
+}
+.pakage label{
+    color:rgba(255, 255, 255, 0.722)
+}
+.input input{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    color: #fff;
+    background: #4be9f9;
+}
+.scor{
+    padding: 40px;
+    background: #eee;
+    text-align: center;
+    word-spacing: 15px;
+    display: none; 
+    font-size: 22px;
+}
+.scor span{
+    color: rgb(10, 200, 247);
+    font-weight: 600;
+    font-size: 42px;
+    font-family: cursive;
+}
